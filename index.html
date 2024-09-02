@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho HTML e CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6b959c;
+        }
+
+        nav {
+            background-color: #2717b1;
+            padding: 10px;
+        }
+
+        nav a {
+            color: rgb(233, 227, 227);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            display: none;
+            padding: 20px;
+            background-color: #6b959c;
+            margin-top: 10px;
+        }
+
+        section:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#sobre mim">sobre mim</a>
+        <a href="#minha formação">minha formação</a>
+        <a href="#portifólio">portifólio</a>
+        <a href="formulário.html">contato</a>
+    </nav>
+
+    <div>
+        <section id="sobre mim">
+            <p>Olá, sou iniciante na programação, tenho 40 anos e procuro aprimoramento contínuo com o objetivo de sempre alcançar novos patamares.</p>
+        </section>
+
+        <section id="minha formação">
+            <p>Análise e Desenvolvimento de Software - Uninter</p>
+        </section>
+
+        <section id="conteudo3">
+            <h2>Conteúdo 3</h2>
+            <p>Este é o conteúdo da seção 3. Ele só aparece quando você clica no link correspondente.</p>
+        </section>
+
+        <section id="contato">
+            <p>Este é o conteúdo da seção 4. Ele só aparece quando você clica no link correspondente.</p>
+        </section>
+    </div>
+</body>
+</html>
